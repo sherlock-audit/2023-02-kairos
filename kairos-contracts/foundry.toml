@@ -1,0 +1,12 @@
+[profile.default]
+src = 'src'
+test = 'test'
+out = 'out/foundry'
+cache_path = 'out/foundry-cache'
+broadcast = 'out/foundry-broadcast'
+fs_permissions = [{ access = "write", path = "./out/"}]
+allow_paths= ['./node_modules']
+
+[profile.doc]
+out = 'out/docs'
+# repository = fixme add public contracts repo

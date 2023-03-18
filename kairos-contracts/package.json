@@ -1,0 +1,24 @@
+{
+  "name": "@kairos-loan/contracts",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "yarn build:foundry",
+    "build:foundry": "forge build --extra-output-files abi",
+    "start": "anvil --silent --block-time 1 > out/anvil-logs.txt & yarn deploy:local &",
+    "lint": "solhint './src/**/*.sol ./scripts/sol/**/*.sol' -c ../../.solhint.json && eslint ./scripts/ts/**/*.ts",
+    "lint:fix": "solhint './src/**/*.sol ./scripts/sol/**/*.sol' -c ../../.solhint.json --fix && eslint ./scripts/ts/**/*.ts --fix",
+    "prettify": "prettier --write ./**/*.sol ./scripts/ts/**/*.ts",
+    "test": "forge test",
+    "generate:doc": "forge doc --build",
+    "generate:coverage": "forge coverage --report lcov"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "diamond": "https://github.com/mudgen/diamond-1-hardhat",
+    "dotenv": "^16.0.3",
+    "ds-test": "https://github.com/dapphub/ds-test",
+    "ethers": "^5.7.2",
+    "forge-std": "https://github.com/foundry-rs/forge-std#master",
+    "solmate": "^6.5.0"
+  }
+}
