@@ -74,4 +74,28 @@ A: [ACCEPTABLE/NOT ACCEPTABLE]
 
 # Audit scope
 
+
+[kairos-contracts @ b2fd98d62cf0f25ee1db2bd551cd7b4606a5a988](https://github.com/kairos-loan/kairos-contracts/tree/b2fd98d62cf0f25ee1db2bd551cd7b4606a5a988)
+- [kairos-contracts/src/AdminFacet.sol](kairos-contracts/src/AdminFacet.sol)
+- [kairos-contracts/src/AuctionFacet.sol](kairos-contracts/src/AuctionFacet.sol)
+- [kairos-contracts/src/BorrowFacet.sol](kairos-contracts/src/BorrowFacet.sol)
+- [kairos-contracts/src/BorrowLogic/BorrowCheckers.sol](kairos-contracts/src/BorrowLogic/BorrowCheckers.sol)
+- [kairos-contracts/src/BorrowLogic/BorrowHandlers.sol](kairos-contracts/src/BorrowLogic/BorrowHandlers.sol)
+- [kairos-contracts/src/ClaimFacet.sol](kairos-contracts/src/ClaimFacet.sol)
+- [kairos-contracts/src/DataStructure/Errors.sol](kairos-contracts/src/DataStructure/Errors.sol)
+- [kairos-contracts/src/DataStructure/Global.sol](kairos-contracts/src/DataStructure/Global.sol)
+- [kairos-contracts/src/DataStructure/Objects.sol](kairos-contracts/src/DataStructure/Objects.sol)
+- [kairos-contracts/src/DataStructure/Storage.sol](kairos-contracts/src/DataStructure/Storage.sol)
+- [kairos-contracts/src/Initializer.sol](kairos-contracts/src/Initializer.sol)
+- [kairos-contracts/src/ProtocolFacet.sol](kairos-contracts/src/ProtocolFacet.sol)
+- [kairos-contracts/src/RepayFacet.sol](kairos-contracts/src/RepayFacet.sol)
+- [kairos-contracts/src/Signature.sol](kairos-contracts/src/Signature.sol)
+- [kairos-contracts/src/SupplyPositionFacet.sol](kairos-contracts/src/SupplyPositionFacet.sol)
+- [kairos-contracts/src/utils/RayMath.sol](kairos-contracts/src/utils/RayMath.sol)
+- [kairos-contracts/src/utils/Erc20CheckedTransfer.sol](kairos-contracts/src/utils/Erc20CheckedTransfer.sol)
+- [kairos-contracts/src/utils/NFTokenUtils.sol](kairos-contracts/src/utils/NFTokenUtils.sol)
+- [kairos-contracts/src/SupplyPositionLogic/SafeMint.sol](kairos-contracts/src/SupplyPositionLogic/SafeMint.sol)
+
+
+
 # About [project name]
